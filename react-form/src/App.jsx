@@ -23,7 +23,6 @@ export default function App() {
     setSubmitted(true);
     if (field.firstName && field.lastName && field.email && field.phoneNumber) {
       setSuccess(true);
-      setField(initState)
     } else {
       setSuccess(false);
     }
